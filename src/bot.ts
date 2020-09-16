@@ -1,4 +1,3 @@
-require('dotenv').config();
 import Config from './config/config';
 import TelegramBot from 'node-telegram-bot-api';
 

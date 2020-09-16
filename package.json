@@ -1,0 +1,28 @@
+{
+  "name": "photoscannerbot",
+  "version": "1.0.0",
+  "description": "Telegram Bot for scanning text in photos",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davictor24/PhotoScannerBot.git"
+  },
+  "keywords": [
+    "telegram",
+    "photo",
+    "picture",
+    "image",
+    "scan",
+    "scanner",
+    "bot"
+  ],
+  "author": "Victor Durojaiye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davictor24/PhotoScannerBot/issues"
+  },
+  "homepage": "https://github.com/davictor24/PhotoScannerBot#readme"
+}

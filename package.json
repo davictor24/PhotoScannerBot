@@ -6,8 +6,9 @@
   "scripts": {
     "build": "npm run clean && npm test && tsc",
     "clean": "rm -rf dist",
-    "start": "tsc && node dist/app.js",
-    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'src/tests/**/*.ts'",
+    "lint": "eslint . --ext .ts",
+    "start": "npm run lint && tsc && node dist/app.js",
+    "test": "npm run lint && env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'src/tests/**/*.ts'",
     "tsc": "tsc"
   },
   "repository": {
@@ -37,11 +38,13 @@
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.3",
     "@types/node-telegram-bot-api": "^0.50.3",
+    "@typescript-eslint/eslint-plugin": "^4.1.1",
+    "@typescript-eslint/parser": "^4.1.1",
     "chai": "^4.2.0",
+    "eslint": "^7.9.0",
     "mocha": "^8.1.3",
     "telegram-test-api": "^2.4.4",
     "ts-node": "^9.0.0",
-    "tslint": "^6.1.3",
     "typescript": "^3.9.7"
   }
 }

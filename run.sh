@@ -1,0 +1,1 @@
+docker run --rm --name photo-scanner-bot registry.heroku.com/photo-scanner-bot

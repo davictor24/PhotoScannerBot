@@ -1,3 +1,4 @@
 docker_build.sh
 docker_run.sh
+deploy.sh
 set_env.sh

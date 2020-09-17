@@ -1,4 +1,8 @@
+.git
+node_modules
+dist
+set_env.sh
+eng.traineddata
 docker_build.sh
 docker_run.sh
 deploy.sh
-set_env.sh

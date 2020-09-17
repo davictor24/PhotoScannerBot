@@ -5,6 +5,7 @@ node_js:
 services: docker
 
 before_install:
+  - npm install -g eslint
   - npm run lint
   # TODO: npm run test
 

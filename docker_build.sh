@@ -1,0 +1,1 @@
+docker build -t registry.heroku.com/photo-scanner-bot/app .

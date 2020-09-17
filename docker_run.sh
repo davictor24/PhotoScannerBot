@@ -1,0 +1,1 @@
+docker run --rm --env API_KEY=$API_KEY --name photo-scanner-bot registry.heroku.com/photo-scanner-bot/app

@@ -4,6 +4,24 @@ import TelegramServer from 'telegram-test-api';
 import onMessage from '../handlers/message';
 import { assert } from 'chai';
 
+// TODO: Outdated test. Bring up to date.
+// 'telegram-test-api' only supports string messages
+// so we can't use the library to send photos.
+// A custom Express server would be used for the test instead.
+
+// Unit test: should scan test photo correctly
+// Send images/test_photo.png to the bot
+
+// Expected response:
+// Mild Splendour of the various-vested Night!
+// Mother of wildly-working visions! haill
+// I watch thy gliding, while with watery light
+// Thy weak eye glimmers through a fleecy veil;
+// And when thou lovest thy pale orb to shroud
+// Behind the gather’d blackness lost on high;
+// And when thou dartest from the wind-rent cloud
+// Thy placid lightning o’er the awaken’d sky.
+
 describe('Message test', () => {
   const serverConfig = {port: 9001};
   const apiKey = Config.API_KEY;
